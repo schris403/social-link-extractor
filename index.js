@@ -16,7 +16,7 @@ const downloadHtml = (url) => {
         headers: {
             'User-Agent': USER_AGENT
         },
-        timeout: 90000,
+        timeout: 2000,
         maxRedirects: 10,
         jar: true,
         rejectUnauthorized: false
